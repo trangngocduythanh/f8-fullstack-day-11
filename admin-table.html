@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            3.2 Tạo file admin-table.htmll và dùng lại css/tables.css để xây
+            dựng giao diện bảng
+        </title>
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/tables.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container dfcenter mt-20">
+                <table class="admin-table">
+                    <thead>
+                        <tr class="b bg-th">
+                            <th class="min-w-130 to-left">Business Listing</th>
+                            <th class="min-w-130">Start Date</th>
+                            <th class="min-w-130 to-left">Vendor ID</th>
+                            <th class="min-w-130">Status</th>
+                            <th class="min-w-130 to-left">Region</th>
+                            <th class="min-w-130 to-right">Posts</th>
+                            <th class="w-30"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo1.png"
+                                    alt="Krusty Krab Ltd."
+                                />
+                                Krusty Krab Ltd.
+                            </td>
+                            <td class="to-right">8/21/15</td>
+                            <td>765594</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Canada (Central)</td>
+                            <td class="to-right">70</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo2.png"
+                                    alt="NetRangler Inc."
+                                />NetRangler Inc.
+                            </td>
+                            <td class="to-right">5/7/16</td>
+                            <td>558612</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>US East (Ohio)</td>
+                            <td class="to-right">41</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo3.png"
+                                    alt="ChumHum Ltd."
+                                />ChumHum Ltd.
+                            </td>
+                            <td class="to-right">5/19/12</td>
+                            <td>665137</td>
+                            <td class="center">
+                                <span class="not-found">Not Found</span>
+                            </td>
+                            <td>EU (Ireland)</td>
+                            <td class="to-right">46</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo4.png"
+                                    alt="Rich Industries Co."
+                                />Rich Industries Co.
+                            </td>
+                            <td class="to-right">9/4/12</td>
+                            <td>520015</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>EU (London)</td>
+                            <td class="to-right">15</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo5.png"
+                                    alt="Wayne Industries Co."
+                                />Wayne Industries Co.
+                            </td>
+                            <td class="to-right">6/19/14</td>
+                            <td>204349</td>
+                            <td class="center">
+                                <span class="not-found">Not Found</span>
+                            </td>
+                            <td>EU (Stockholm)</td>
+                            <td class="to-right">33</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo6.png"
+                                    alt="Bubba Gump Co."
+                                />Bubba Gump Co.
+                            </td>
+                            <td class="to-right">11/7/16</td>
+                            <td>487441</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Asia Pacific (Singapore)</td>
+                            <td class="to-right">79</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo7.png"
+                                    alt="Monsters Inc."
+                                />Monsters Inc.
+                            </td>
+                            <td class="to-right">3/4/16</td>
+                            <td>788187</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>EU (London)</td>
+                            <td class="to-right">17</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo8.png"
+                                    alt="InGen Ltd."
+                                />InGen Ltd.
+                            </td>
+                            <td class="to-right">8/2/19</td>
+                            <td>809905</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>US West (N. California)</td>
+                            <td class="to-right">39</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo9.png"
+                                    alt="Kwik-E-Mart Ltd."
+                                />Kwik-E-Mart Ltd.
+                            </td>
+                            <td class="to-right">8/15/17</td>
+                            <td>172922</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>EU (Paris)</td>
+                            <td class="to-right">74</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo10.png"
+                                    alt="U.S. Robotics Inc."
+                                />U.S. Robotics Inc.
+                            </td>
+                            <td class="to-right">6/21/19</td>
+                            <td>295340</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Asia Pacific (Tokyo)</td>
+                            <td class="to-right">32</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo11.png"
+                                    alt="Gryzzl Co."
+                                />Gryzzl Co.
+                            </td>
+                            <td class="to-right">9/23/16</td>
+                            <td>036023</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Asia Pacific (Singapore)</td>
+                            <td class="to-right">53</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo12.png"
+                                    alt="Wonka Industries GmbH"
+                                />Wonka Industries GmbH
+                            </td>
+                            <td class="to-right">5/30/14</td>
+                            <td>448432</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>South America</td>
+                            <td class="to-right">25</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo13.png"
+                                    alt="Buy'N'Large Ltd."
+                                />Buy'N'Large Ltd.
+                            </td>
+                            <td class="to-right">1/31/14</td>
+                            <td>935910</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Asia Pacific (Mumbai)</td>
+                            <td class="to-right">29</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo14.png"
+                                    alt="Capsule Inc."
+                                />Capsule Inc.
+                            </td>
+                            <td class="to-right">2/11/12</td>
+                            <td>125629</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Asia Pacific (Singapore)</td>
+                            <td class="to-right">43</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo15.png"
+                                    alt="Soylent Co."
+                                />Soylent Co.
+                            </td>
+                            <td class="to-right">10/28/12</td>
+                            <td>785681</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>EU (Frankfurt)</td>
+                            <td class="to-right">51</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo16.png"
+                                    alt="Pizza Planet Inc."
+                                />Pizza Planet Inc.
+                            </td>
+                            <td class="to-right">7/27/13</td>
+                            <td>550819</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Asia Pacific (Seoul)</td>
+                            <td class="to-right">72</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo17.png"
+                                    alt="Umbrella Corp."
+                                />Umbrella Corp.
+                            </td>
+                            <td class="to-right">8/16/13</td>
+                            <td>482650</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>Asia Pacific (Sydney)</td>
+                            <td class="to-right">56</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo18.png"
+                                    alt="Sirius Cybernetics Co."
+                                />Sirius Cybernetics Co.
+                            </td>
+                            <td class="to-right">12/10/13</td>
+                            <td>449003</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>US East (N. Virginia)</td>
+                            <td class="to-right">80</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo19.png"
+                                    alt="Madrigal Electrómotive"
+                                />Madrigal Electrómotive
+                            </td>
+                            <td class="to-right">9/18/16</td>
+                            <td>247562</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>EU (Paris)</td>
+                            <td class="to-right">42</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img
+                                    src="./assets/img/img-logo20.png"
+                                    alt="Bluth Company Inc."
+                                />Bluth Company Inc.
+                            </td>
+                            <td class="to-right">1/15/12</td>
+                            <td>977094</td>
+                            <td class="center">
+                                <span class="active">Active</span>
+                            </td>
+                            <td>US West (Oregon)</td>
+                            <td class="to-right">52</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
