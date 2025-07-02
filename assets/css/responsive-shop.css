@@ -1,0 +1,173 @@
+.header-menu {
+    display: none;
+}
+.nav-chevron-down {
+    display: none;
+}
+
+/* xxl */
+@media (max-width: 1399.98px) {
+}
+
+/* xl */
+@media (max-width: 1199.98px) {
+    .nav {
+        padding-left: 10px;
+    }
+
+    .nav > li > a {
+        font-size: 1.4rem;
+        padding: 10px;
+    }
+
+    .user-actions {
+        margin-left: 8px;
+    }
+
+    .user-actions .action-btn {
+        font-size: 1.4rem;
+        padding: 6px;
+    }
+
+    .shop-sidebar {
+        width: 32%;
+    }
+
+    .shop-product {
+        width: calc(68% - 30px);
+    }
+
+    .shop-product .product-item {
+        width: calc(50% - 15px);
+    }
+
+    .shop-product .product-item img {
+        width: 100%;
+    }
+
+    .row-app {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* lg: tablet */
+@media (max-width: 991.98px) {
+    .header {
+        position: relative;
+    }
+
+    .header-menu {
+        display: block;
+        font-size: 2.4rem;
+        color: #fff;
+        margin-top: 26px;
+        margin-bottom: -50px;
+    }
+
+    .header-logo-wrap:has(:checked) ~ .nav {
+        max-height: 414px;
+    }
+
+    .nav {
+        position: absolute;
+        top: 146px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        max-height: 0;
+        background: #000;
+        flex-direction: column;
+        padding-left: 0;
+        overflow-y: auto;
+        transition: max-height ease-in-out 0.4s;
+    }
+
+    .nav > li > a {
+        font-size: 1.5rem;
+        font-weight: normal;
+        padding: 16px;
+        border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .nav > li:first-child > a {
+        border-top: none;
+    }
+
+    .nav-chevron-down {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 47px;
+        width: 60px;
+        padding: 16px 25px;
+        border-left: 1px solid rgba(255, 255, 255, 0.15);
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    .nav-chevron-down:has(:checked) ~ .sub-menu {
+        max-height: 326px;
+    }
+
+    .nav > li .sub-menu {
+        position: initial;
+        max-height: 0;
+        transition: max-height ease-in-out 0.3s;
+        overflow: hidden;
+    }
+
+    .shop-page .row {
+        flex-wrap: wrap-reverse;
+    }
+
+    .shop-sidebar {
+        width: 50%;
+    }
+
+    .shop-product {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .footer .row {
+        flex-wrap: wrap;
+        gap: 60px 30px;
+    }
+
+    .footer-logo,
+    .footer-subscribe {
+        width: 48%;
+    }
+
+    .footer .column {
+        width: calc(26% - 30px);
+    }
+
+    .footer .col-3 {
+        width: 48%;
+        margin-left: auto;
+    }
+}
+
+/* md: landscape phones */
+@media (max-width: 767.98px) {
+    .shop-sidebar {
+        width: 100%;
+    }
+
+    .footer-logo,
+    .footer-subscribe,
+    .footer .column {
+        width: 100%;
+    }
+
+    .row-app {
+        flex-direction: row;
+    }
+}
+
+/* sm: portrait phones */
+@media (max-width: 575.98px) {
+}
