@@ -23,7 +23,7 @@
     }
 
     .user-actions {
-        margin-left: 8px;
+        margin-left: 6px;
     }
 
     .user-actions .action-btn {
@@ -121,6 +121,10 @@
         padding-bottom: 130px;
     }
 
+    .footer .row {
+        gap: 60px 30px;
+    }
+
     .footer-logo,
     .footer-subscribe {
         width: 48%;
@@ -128,6 +132,15 @@
 
     .footer .column {
         width: calc(26% - 30px);
+    }
+
+    .footer .col-3 {
+        width: 48%;
+        margin-left: auto;
+    }
+
+    .footer-subscribe {
+        width: 52%;
     }
 }
 
@@ -145,6 +158,10 @@
     .footer-subscribe,
     .footer .column {
         width: 100%;
+    }
+
+    .row-app {
+        flex-direction: row;
     }
 }
 
